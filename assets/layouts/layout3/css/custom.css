@@ -1,0 +1,28 @@
+/* here you can put your own css to customize and override the theme */
+
+/* Data Tables */
+
+.table.dataTable.no-footer {
+    border-bottom: 0 !important;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top:  1px solid #e7ecf1;
+}
+.table thead tr th {
+    color: #34495e;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate, div.dataTables_wrapper div.dataTables_filter label, div.dataTables_wrapper div.dataTables_length label {
+    color: #34495e;
+}
+table.dataTable tfoot tr {
+    color: #34495e;
+    font-weight: 600;
+}
+.form-group .form-control {
+    resize: vertical;    
+}
+.portfolio-content .cbp-l-filters-button .cbp-filter-counter, .portfolio-content .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    background-color: #76221f;
+    border-color: #76221f;
+    color: #fff;
+}
